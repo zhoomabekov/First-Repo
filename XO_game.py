@@ -42,6 +42,7 @@ def user_input():
     return [ver, hor]
 
 # Игровой Loop
+print_grid(grid)
 turn = 'X'                                  # начинают крестики
 while True:
     res = user_input()

@@ -67,6 +67,8 @@ while True:
 
     if turn * 3 in triple:
         print(f'Игрок {turn} выйграл! Поздравляем!')
+        break
+    triple = []
 
 
 

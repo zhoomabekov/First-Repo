@@ -47,7 +47,7 @@ while True:
     res = user_input()
     ver, hor = res[0], res[1]
     grid[ver][hor] = turn
-    print(grid)
+    print_grid(grid)
 
     # Проверка выйграл ли кто-либо или произошла ничья:
     triple = []

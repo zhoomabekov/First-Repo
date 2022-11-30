@@ -102,3 +102,5 @@ while True:
     triple = []
 
     turn = 'X' if turn == 'Y' else 'Y'          # смена очереди
+
+    # This line is just for test purposes
